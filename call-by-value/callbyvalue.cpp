@@ -3,11 +3,12 @@ using namespace std;
 int sum(int a, int b)//function declared
 {
     int sum = a + b;//initialising sum
-    cout << sum;
+    return(sum);
 }
 int main()
 {
-    int x, y;
+    int x=0, y=0, z=0;
     cin>>x>>y;//input x and y
-    sum(x, y);
+    z=sum(x,y);//assigning the value of sum in z
+    cout<<z;
 }
